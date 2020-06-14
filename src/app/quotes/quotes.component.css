@@ -12,6 +12,12 @@ h4{
 span{
   font-family: 'Special Elite', cursive;
 }
+.welcome{
+  text-align: center;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+}
 .overlay{
   background-color:rgba(0, 9, 10, 0.301);
   border-radius: 5px;
