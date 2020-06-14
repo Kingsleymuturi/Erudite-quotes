@@ -1,1 +1,26 @@
-<p>quotes works!</p>
+<div class="overlay">
+  <h1>
+    {{ title | titlecase }}
+  </h1>
+</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <app-quotes-form (add)="addedQuote($event)"></app-quotes-form>
+      </div>
+      <div class="col-sm-9">
+        <div class="all-cards">
+          <div *ngFor="let quote of sortQuotes let i= index" class="card" style="width: 24rem;"  >
+            <div class="card-body">
+              <p class="card-text" id="param">{{quote.quote}}<br><button (click)='displayInfo(i)' class="btn btn-black btn-sm" id="quotes-button" >See More</button></p>
+              <app-quote-details *ngIf='quote.showInfo' bind-quote='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>
+              <p><span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span></span><br>
+              <span id="date">on: <span id="datecolor">{{quote.datePosted|date:'short'}}</span></span></p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

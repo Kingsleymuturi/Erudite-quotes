@@ -1,0 +1,31 @@
+.form-control{
+  color: white;
+  background: transparent;
+  font-weight: 570;
+}
+label{
+  color: white;
+  font-weight: 600;
+}
+hr{
+  width: 50%;
+  height: 2px;
+  background-color: green;
+}
+.heading{
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+}
+.overlay{
+  background-color:rgba(139, 210, 221, 0.301);
+  border-radius: 5px;
+  margin-top:4%;
+  margin-left: 4%;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  font-family: 'Special Elite', cursive;
+}
