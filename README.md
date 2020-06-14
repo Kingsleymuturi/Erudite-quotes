@@ -33,7 +33,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request 
 
 ## Technologies Used
-During the creation of this webpage I used HTML, CSS , Typescript. Generally I used Angular CLI
+During the creation of this webpage I used HTML, CSS , Typescript. Generally, I used Angular CLI
 ## Support and contact details
 In case of anything find me here: kingsleymuturi9@gmail.com feel free to communicate any issue with the webpage
 
