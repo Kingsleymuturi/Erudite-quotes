@@ -15,7 +15,7 @@ export class HighlightQuoteDirective {
     this.cardDeco("rgba(139, 210, 221, 0.301)")
   }
   private cardDeco(action:string){
-    this.elem.nativeElement.style.background=action;
+    this.elem.nativeElement.style.background=action; 
   }
 
 }
