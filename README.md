@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
   
-#### This is a webpage that has quotes to inspiire people in their lives, Current version 2020
+#### This is a webpage that has quotes to inspire people in their lives, Current version 2020
 </table>
 </tr>
 </td>
