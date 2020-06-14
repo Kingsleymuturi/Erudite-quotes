@@ -1,27 +1,41 @@
-# Quotes
+# Erudite Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+  
+#### This is a webpage that has quotes to inspiire people in their lives, Current version 2020
+</table>
+</tr>
+</td>
 
-## Development server
+#### By **Kingsleymuturi**
+  
+## Description
+Erudite Quotes Website, is a website that inspires users by quotes written by other users as it allows one to input his or her own quote too.
+## Access
+* click the live link to be directed directly to the webpage:
+https://Kingsleymuturi.github.io/Erudite-quotes
+* you should see something similar to the following image
+![Erudite-quotes website](src/welcome.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Known Bugs
+The quotes have no database to be stored yet.
+### Development
+Want to contribute? Great!
 
-## Code scaffolding
+To fix a bug or enhance an existing module, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -m 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
 
-## Build
+## Technologies Used
+During the creation of this webpage I used HTML, CSS , Typescript. Generally I used Angular CLI
+## Support and contact details
+In case of anything find me here: kingsleymuturi9@gmail.com feel free to communicate any issue with the webpage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### [LICENSE](https://github.com/Kingsleymuturi/Erudite-quotes/blob/master/LICENSE)
+Copyright (c) 2020 [Kingsley Muturi ](https://github.com/Kingsleymuturi)
